@@ -73,13 +73,14 @@ namespace DatingApp2
                         }
                     });
                 });
-                app.UseHsts();
+
+                //app.UseHsts();
             }
 
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseHttpsRedirection();
             app.UseAuthentication();
-            app.UseMvc();
+            app.UseMvc();    
         }
     }
 }
