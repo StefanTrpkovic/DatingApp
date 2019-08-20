@@ -1,7 +1,6 @@
 using System;
 using System.Threading.Tasks;
 using DatingApp2.Models;
-using DatingApp2.Models.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace DatingApp2.Data
